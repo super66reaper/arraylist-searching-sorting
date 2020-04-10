@@ -9,3 +9,10 @@
     III.The numbers would be much greater but the search number would be exponentially bigger compared to the binary search
 
 //Sorting
+
+1.Bubble Sorting is not repetative and easy to do compared to the others
+2.
+    I.about 10 for all
+    II.Still 10 because it still has to compare them all
+    III.10 
+3.It would be reasonable to sort and use binary search as it is much more efficent than the normal search even with sorting it before.
