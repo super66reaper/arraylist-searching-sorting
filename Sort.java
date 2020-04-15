@@ -87,6 +87,7 @@ public class Sort {
         String t;
 
         for(int k = 0; k < size - 1; k++) {
+            //Check for needing swapped
             if(list.get(k + 1).compareTo(list.get(k)) < 0) {
                 //Swapping
                 t = list.get(k);
