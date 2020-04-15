@@ -86,15 +86,12 @@ public class Sort {
         //Temporary string
         String t;
 
-        for(int k = 0; k < size; k++) {
-            for(int i = k + 1; i < size; i++) {
-                //If the pair needs to be swapped
-                if(list.get(i).compareTo(list.get(k)) < 0) {
-                    //Swapping
-                    t = list.get(k);
-                    list.set(k, list.get(i));
-                    list.set(i, t);
-                }
+        for(int k = 0; k < size - 1; k++) {
+            if(list.get(k + 1).compareTo(list.get(k)) < 0) {
+                //Swapping
+                t = list.get(k);
+                list.set(k, list.get(k + 1));
+                list.set(k + 1, t);
             }
         }
 
